@@ -1,0 +1,86 @@
+body {
+    background-color: #9DB2BF;
+}
+
+.container-login {
+    width: 400px;
+    height: auto;
+    background-color: #fff;
+    border: solid 1px #FAF3F0;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;    
+    padding-bottom: 30px;
+}
+
+.login-img {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.login-img img {
+    width: 150px;
+    height: auto;
+    margin: 10px, auto;
+}
+
+.login-img .title-signin {
+    text-align: center;
+    font-weight: 700;
+}
+
+.login-form {
+    width: 100%;
+}
+
+.txt_field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 5px 20px;
+}
+
+.txt_field label {
+    font-size: 20px;
+}
+
+.txt_field input {
+    height: 40px;
+    border: solid 1px #A8A196;
+    padding-left: 10px;
+}
+
+.pass {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.submit {
+    width: 250px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+.email {
+    background-color: #614BC3;
+}
+
+.signin-email p {
+    text-align: center;
+    margin-top: 10px;
+    opacity: 60%;
+}
